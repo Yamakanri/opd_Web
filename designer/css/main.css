@@ -34,7 +34,7 @@ body {
   top: 111px;
   left: 221px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -46,7 +46,7 @@ body {
   top: 734px;
   left: 40px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -88,7 +88,7 @@ body {
   top: 33px;
   left: 1356px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -99,8 +99,8 @@ body {
   position: absolute;
   top: 235px;
   left: 42px;
-  font-family: TT Interfaces;
-  font-weight: DemiBold;
+  font-family: 'TT Interfaces', sans-serif;  <!-- изменил, чтобы норм отображалос -->
+  font-weight: normal;  <!-- поменял везде на normal, тк у тебя хуйня была нерабочая -->
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -112,7 +112,7 @@ body {
   top: 415px;
   left: 40px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -124,7 +124,7 @@ body {
   top: 431px;
   left: 40px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 18px;
   opacity: 1;
   text-align: left;
@@ -136,7 +136,7 @@ body {
   top: 415px;
   left: 250px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -148,7 +148,7 @@ body {
   top: 415px;
   left: 430px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -160,7 +160,7 @@ body {
   top: 431px;
   left: 250px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 18px;
   opacity: 1;
   text-align: left;
@@ -172,7 +172,7 @@ body {
   top: 432px;
   left: 431px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 18px;
   opacity: 1;
   text-align: left;
@@ -184,7 +184,7 @@ body {
   top: 415px;
   left: 629px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 12px;
   opacity: 1;
   text-align: left;
@@ -196,7 +196,7 @@ body {
   top: 432px;
   left: 630px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 18px;
   opacity: 1;
   text-align: left;
@@ -207,8 +207,8 @@ body {
   position: absolute;
   top: 194px;
   left: 221px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -290,7 +290,7 @@ body {
   top: 33px;
   left: 40px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
