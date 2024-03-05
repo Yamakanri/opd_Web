@@ -68,13 +68,13 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.experts_button {
+.button_experts {
   width: 65px;
   color: rgba(102,102,102,1);
   position: absolute;
   top: 33px;
   left: 40px;
-  font-family: 'TT Interfaces', sans-serif;
+  font-family: TT Interfaces;
   font-weight: Medium;
   font-size: 14px;
   opacity: 1;
