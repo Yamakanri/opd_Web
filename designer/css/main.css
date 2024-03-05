@@ -99,8 +99,8 @@ body {
   position: absolute;
   top: 235px;
   left: 42px;
-  font-family: 'TT Interfaces', sans-serif;  <!-- изменил, чтобы норм отображалос -->
-  font-weight: normal;  <!-- поменял везде на normal, тк у тебя хуйня была нерабочая -->
+  font-family: 'TT Interfaces', sans-serif;  /* изменил, чтобы норм отображалос */
+  font-weight: normal;  /* поменял везде на normal, тк у тебя хуйня была нерабочая */
   font-size: 14px;
   opacity: 1;
   text-align: left;
