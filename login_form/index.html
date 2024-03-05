@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- если у тебя слетит страница, то удали эту строку -->
     <link href="https://fonts.googleapis.com/css?family=TT+Interfaces&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
     <title>Вход</title>
@@ -9,12 +10,18 @@
 <body>
 <div class="login_page">
     <span class="title">Вход в Личный кабинет</span>
-    <input type="text" class="login_form" placeholder="Логин">
 
-    <input type="password" class="password_form" placeholder="Пароль">
+    <!-- сделано для людей -->
 
-    <button type="submit" class="enter_button">Войти</button>
+    <form>
+        <label for="login" class="visually-hidden">Логин:</label>
+        <input type="text" id="login" class="login_form" placeholder="Логин">
 
+        <label for="password" class="visually-hidden">Пароль:</label>
+        <input type="password" id="password" class="password_form" placeholder="Пароль">
+
+        <button type="submit" class="enter_button">Войти</button>
+    </form>
 
     <div class="menu_back"></div>
     <div class="ellipse"></div>
