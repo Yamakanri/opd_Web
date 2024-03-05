@@ -21,7 +21,7 @@ body {
   top: 111px;
   left: 221px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -33,7 +33,7 @@ body {
   top: 734px;
   left: 40px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -75,7 +75,7 @@ body {
   top: 33px;
   left: 40px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -87,7 +87,7 @@ body {
   top: 33px;
   left: 1356px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -99,7 +99,7 @@ body {
   top: 181px;
   left: 40px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -280,7 +280,7 @@ body {
   top: 244px;
   left: 269px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -292,7 +292,7 @@ body {
   top: 241px;
   left: 853px;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 20px;
   opacity: 1;
   text-align: left;
@@ -307,7 +307,7 @@ body {
   color: rgba(176,176,176,1);
   position: absolute;
   font-family: 'TT Interfaces', sans-serif;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
