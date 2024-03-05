@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.register_page {
+  width: 100%;
+  height: 810px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v24_255 {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 282px;
+  left: 420px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+}
+.title {
+  width: 267px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 179px;
+  left: 587px;
+  font-family: TT Interfaces;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.name_form {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 282px;
+  left: 420px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.name_surname {
+  width: 102px;
+  color: rgba(166,166,166,1);
+  position: absolute;
+  top: 296px;
+  left: 470px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.login_form {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 352px;
+  left: 420px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.login {
+  width: 40px;
+  color: rgba(166,166,166,1);
+  position: absolute;
+  top: 366px;
+  left: 470px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.password_form {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 422px;
+  left: 421px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.password {
+  width: 49px;
+  color: rgba(166,166,166,1);
+  position: absolute;
+  top: 436px;
+  left: 471px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.reg_button {
+  width: 600px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 522px;
+  left: 420px;
+  border: none; /* Убираем границу */
+  color:#E69E49; /* Цвет текста */
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+.register {
+  width: 137px;
+  color: rgba(230,158,73,1);
+  position: absolute;
+  top: 536px;
+  left: 652px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.menu_back {
+  width: 100%;
+  height: 77px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  overflow: hidden;
+}
+.enter_button {
+  width: 32px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 27px;
+  left: 1343px;
+  font-family: TT Interfaces;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.logo {
+  width: 150px;
+  height: 48px;
+  background: url("../images/v43_60.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 645px;
+  overflow: hidden;
+}

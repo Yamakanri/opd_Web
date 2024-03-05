@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.login_page {
+  width: 100%;
+  height: 810px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.login_form {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  font-family: TT Interfaces;
+  top: 282px;
+  left: 420px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.title {
+  width: 299px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 179px;
+  left: 571px;
+  font-family: TT Interfaces;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.login {
+  width: 40px;
+  color: rgba(166,166,166,1);
+  position: absolute;
+  top: 296px;
+  left: 470px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.password_form {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  font-family: TT Interfaces;
+  position: absolute;
+  top: 352px;
+  left: 420px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.password {
+  width: 50px;
+  color: rgba(166,166,166,1);
+  position: absolute;
+  top: 366px;
+  left: 470px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.enter_button {
+  width: 600px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 442px;
+  left: 420px;
+  border: none; /* Убираем границу */
+  color:#E69E49; /* Цвет текста */
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  cursor: pointer; /* Делаем курсор указателем */
+}
+.enter {
+  width: 40px;
+  color: rgba(230,158,73,1);
+  position: absolute;
+  top: 456px;
+  left: 700px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.menu_back {
+  width: 100%;
+  height: 77px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  overflow: hidden;
+}
+.ellipse {
+  width: 96px;
+  height: 43px;
+  background: url("../images/v43_47.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 1304px;
+  overflow: hidden;
+}
+.registration {
+  width: 87px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 27px;
+  left: 1311px;
+  font-family: TT Interfaces;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.logo {
+  width: 150px;
+  height: 48px;
+  background: url("../images/v43_36.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 645px;
+  overflow: hidden;
+}

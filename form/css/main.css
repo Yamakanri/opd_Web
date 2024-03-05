@@ -1,0 +1,395 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v24_370 {
+  width: 100%;
+  height: 810px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.title {
+  width: 194px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 111px;
+  left: 221px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.save_button {
+  width: 282px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 734px;
+  left: 40px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.line1 {
+  width: 1360px;
+  height: 1px;
+  background: rgba(51,51,51,1);
+  opacity: 1;
+  position: absolute;
+  top: 167px;
+  left: 40px;
+  overflow: hidden;
+}
+.line2 {
+  width: 100%;
+  height: 1px;
+  background: rgba(215,215,215,1);
+  opacity: 1;
+  position: absolute;
+  top: 700px;
+  left: 0px;
+  overflow: hidden;
+}
+.menu_back {
+  width: 100%;
+  height: 77px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  overflow: hidden;
+}
+.experts_button {
+  width: 65px;
+  color: rgba(102,102,102,1);
+  position: absolute;
+  top: 33px;
+  left: 40px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.exit_button {
+  width: 44px;
+  color: rgba(102,102,102,1);
+  position: absolute;
+  top: 33px;
+  left: 1356px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.text1 {
+  width: 613px;
+  color: rgba(102,102,102,1);
+  position: absolute;
+  top: 181px;
+  left: 40px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input1 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 235px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form_enter1 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 235px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form_enter2 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 295px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form_enter3 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form_enter4 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 415px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form_enter5 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 475px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form_enter6 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form_enter7 {
+  width: 42px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 595px;
+  left: 838px;
+  border: 1px solid rgba(51,51,51,1);
+  overflow: hidden;
+}
+.form1 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 244px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v24_432 {
+  width: 12px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 241px;
+  left: 853px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input2 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 295px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form2 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 304px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input3 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form3 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 364px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input4 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 415px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form4 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 424px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input5 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 475px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form5 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 484px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input6 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form6 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 544px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.form_text_input7 {
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 595px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+}
+.form7 {
+  width: 243px;
+  color: rgba(176,176,176,1);
+  position: absolute;
+  top: 604px;
+  left: 269px;
+  font-family: TT Interfaces;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.arrow {
+  width: 87px;
+  height: 8px;
+  background: url("../images/v43_64.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 752px;
+  left: 708px;
+  overflow: hidden;
+}
+.blur {
+  width: 286px;
+  height: 120px;
+  background: url("../images/v44_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 175px;
+  overflow: hidden;
+}
+.logo {
+  width: 150px;
+  height: 48px;
+  background: url("../images/v44_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 645px;
+  overflow: hidden;
+}
