@@ -20,7 +20,7 @@ body {
   position: absolute;
   top: 111px;
   left: 221px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 28px;
   opacity: 1;
@@ -32,7 +32,7 @@ body {
   position: absolute;
   top: 734px;
   left: 40px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 28px;
   opacity: 1;
@@ -74,7 +74,7 @@ body {
   position: absolute;
   top: 33px;
   left: 40px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 14px;
   opacity: 1;
@@ -86,7 +86,7 @@ body {
   position: absolute;
   top: 33px;
   left: 1356px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 14px;
   opacity: 1;
@@ -98,13 +98,13 @@ body {
   position: absolute;
   top: 181px;
   left: 40px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 14px;
   opacity: 1;
   text-align: left;
 }
-.form_text_input1 {
+.form_text_input1 input{
   width: 574px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -114,8 +114,81 @@ body {
   left: 221px;
   border: 1px solid rgba(176,176,176,1);
   overflow: hidden;
+  padding-left: 20px;
 }
-.form_enter1 {
+.form_text_input2 input{
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 295px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.form_text_input3 input{
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.form_text_input4 input{
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 415px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.form_text_input5 input{
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 475px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.form_text_input6 input{
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.form_text_input7 input{
+  width: 574px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 595px;
+  left: 221px;
+  border: 1px solid rgba(176,176,176,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
+.form_enter1 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -125,8 +198,9 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
-.form_enter2 {
+.form_enter2 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -136,8 +210,9 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
-.form_enter3 {
+.form_enter3 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -147,8 +222,9 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
-.form_enter4 {
+.form_enter4 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -158,8 +234,9 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
-.form_enter5 {
+.form_enter5 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -169,8 +246,10 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
-.form_enter6 {
+
+.form_enter6 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -180,8 +259,9 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
-.form_enter7 {
+.form_enter7 input {
   width: 42px;
   height: 40px;
   background: rgba(245,245,245,1);
@@ -191,6 +271,7 @@ body {
   left: 838px;
   border: 1px solid rgba(51,51,51,1);
   overflow: hidden;
+  padding-left: 16px;
 }
 .form1 {
   width: 243px;
@@ -198,7 +279,7 @@ body {
   position: absolute;
   top: 244px;
   left: 269px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 14px;
   opacity: 1;
@@ -210,150 +291,33 @@ body {
   position: absolute;
   top: 241px;
   left: 853px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 20px;
   opacity: 1;
   text-align: left;
 }
-.form_text_input2 {
-  width: 574px;
-  height: 40px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 295px;
-  left: 221px;
-  border: 1px solid rgba(176,176,176,1);
-  overflow: hidden;
-}
-.form2 {
-  width: 243px;
-  color: rgba(176,176,176,1);
-  position: absolute;
-  top: 304px;
-  left: 269px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.form_text_input3 {
-  width: 574px;
-  height: 40px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 355px;
-  left: 221px;
-  border: 1px solid rgba(176,176,176,1);
-  overflow: hidden;
-}
-.form3 {
-  width: 243px;
-  color: rgba(176,176,176,1);
-  position: absolute;
-  top: 364px;
-  left: 269px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.form_text_input4 {
-  width: 574px;
-  height: 40px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 415px;
-  left: 221px;
-  border: 1px solid rgba(176,176,176,1);
-  overflow: hidden;
-}
-.form4 {
-  width: 243px;
-  color: rgba(176,176,176,1);
-  position: absolute;
-  top: 424px;
-  left: 269px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.form_text_input5 {
-  width: 574px;
-  height: 40px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 475px;
-  left: 221px;
-  border: 1px solid rgba(176,176,176,1);
-  overflow: hidden;
-}
-.form5 {
-  width: 243px;
-  color: rgba(176,176,176,1);
-  position: absolute;
-  top: 484px;
-  left: 269px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.form_text_input6 {
-  width: 574px;
-  height: 40px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 535px;
-  left: 221px;
-  border: 1px solid rgba(176,176,176,1);
-  overflow: hidden;
-}
-.form6 {
-  width: 243px;
-  color: rgba(176,176,176,1);
-  position: absolute;
-  top: 544px;
-  left: 269px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.form_text_input7 {
-  width: 574px;
-  height: 40px;
-  background: rgba(245,245,245,1);
-  opacity: 1;
-  position: absolute;
-  top: 595px;
-  left: 221px;
-  border: 1px solid rgba(176,176,176,1);
-  overflow: hidden;
-}
+.form2,
+.form3,
+.form4,
+.form5,
+.form6,
 .form7 {
   width: 243px;
   color: rgba(176,176,176,1);
   position: absolute;
-  top: 604px;
-  left: 269px;
-  font-family: TT Interfaces;
+  font-family: 'TT Interfaces', sans-serif;
   font-weight: Medium;
   font-size: 14px;
   opacity: 1;
   text-align: left;
 }
+.form2 { top: 304px; left: 269px; }
+.form3 { top: 364px; left: 269px; }
+.form4 { top: 424px; left: 269px; }
+.form5 { top: 484px; left: 269px; }
+.form6 { top: 544px; left: 269px; }
+.form7 { top: 604px; left: 269px; }
 .arrow {
   width: 87px;
   height: 8px;
