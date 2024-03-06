@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=TT+Interfaces&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <script type="module" src="../database/register.mjs"></script>
+    <title>Регистрация</title>
+</head>
+<body>
+<div class="register_page">
+    <span class="title">Зарегистрироваться</span>
+
+    <label for="name" class="form_label">Имя:</label>
+    <input type="text" id="name" class="form_input name_form" placeholder="Имя">
+
+    <label for="surname" class="form_label">Фамилия:</label>
+    <input type="text" id="surname" class="form_input surname_form" placeholder="Фамилия">
+
+    <label for="login" class="form_label">Логин:</label>
+    <input type="text" id="login" class="form_input login_form" placeholder="Логин">
+
+    <label for="password" class="form_label">Пароль:</label>
+    <input type="password" id="password" class="form_input password_form" placeholder="Пароль">
+
+    <button type="submit" class="form_input reg_button" onclick="registerUser()">Зарегистрироваться</button>
+    <div class="menu_back"></div>
+
+    <span class="enter_button"> <a href="../login_form/login.html"><u>Вход</u></a> </span>
+    <div class="logo"></div>
+</div>
+</body>
+</html>
