@@ -20,8 +20,8 @@ body {
   position: absolute;
   top: 213px;
   left: 40px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -32,8 +32,8 @@ body {
   position: absolute;
   top: 284px;
   left: 40px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -44,8 +44,8 @@ body {
   position: absolute;
   top: 355px;
   left: 40px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 24px;
   opacity: 1;
   text-align: left;
@@ -56,8 +56,8 @@ body {
   position: absolute;
   top: 111px;
   left: 221px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -68,8 +68,8 @@ body {
   position: absolute;
   top: 221px;
   left: 337px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -80,8 +80,8 @@ body {
   position: absolute;
   top: 292px;
   left: 416px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -122,8 +122,8 @@ body {
   position: absolute;
   top: 363px;
   left: 371px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -154,8 +154,8 @@ body {
   position: absolute;
   top: 33px;
   left: 1356px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -196,8 +196,8 @@ body {
   position: absolute;
   top: 33px;
   left: 40px;
-  font-family: TT Interfaces;
-  font-weight: Medium;
+  font-family: 'TT Interfaces', sans-serif;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
