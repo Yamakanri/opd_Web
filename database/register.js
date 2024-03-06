@@ -1,9 +1,8 @@
 import mysql from "mysql2"; // хуйня
-const bcrypt = require("bcrypt"); // хуйня
+// const bcrypt = require("bcrypt"); // хуйня
 const saltRounds = 10;
 
 function registerUser() {
-    // Получаем данные из полей ввода
     const name = document.querySelector('.name_form').value;
     const surname = document.querySelector('.surname_form').value;
     const login = document.querySelector('.login_form').value;
@@ -37,43 +36,29 @@ const connection = mysql.createConnection({
     database: "opd_web"
 });
 
-function registration(connection, name, surname, login, passw) {
-    return new Promise((resolve, reject) => {
-        connection.query("SELECT login FROM users WHERE login = ?", [login], async function (err, rows) {
-            if (err) {
-                reject(err);
-                return;
-            }
+function registration(connection, login, password, name, surname) {
+    connection.connect(function (err) {
+        if (err) throw err;
 
-            if (rows.length > 0) {
-                console.log("Пользователь уже существует.");
-                reject("Пользователь уже существует.");
-                return;
-            }
+        // Проверяем, существует ли пользователь с таким логином
+        connection.query("SELECT login FROM users WHERE login = ?", [login], function (err, result, fields) {
+            if (err) throw err;
 
-            try {
-                const salt = await generateSalt();
-                const hashedPassword = await hashPassword(passw, salt);
-
-                connection.query(
-                    "INSERT INTO users (name, surname, login, passw, salt, hashed) VALUES (?, ?, ?, ?, ?, ?)",
-                    [name, surname, login, passw, salt, hashedPassword],
+            if (result.length > 0) {
+                console.log("User already exists!");
+            } else {
+                // Если пользователя с таким логином нет, добавляем новую запись в базу данных
+                connection.query("INSERT INTO users (login, password, name, surname, salt, hash, permission) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                    [login, password, name, surname, 'your_salt_value', 'your_hash_value', false],
                     function (err, result) {
-                        if (err) {
-                            reject(err);
-                            return;
-                        }
-
-                        console.log("Рега завершена!");
-                        resolve(result);
-                    }
-                );
-            } catch (error) {
-                reject(error);
+                        if (err) throw err;
+                        console.log("Registration success!");
+                    });
             }
         });
     });
 }
+
 
 
 function generateSalt() {
