@@ -27,7 +27,7 @@ body {
   overflow: hidden;
   padding-left: 20px;
 }
-.title {
+.main_button {
   width: 299px;
   color: rgba(0,0,0,1);
   position: absolute;
