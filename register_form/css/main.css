@@ -49,6 +49,18 @@ body {
   overflow: hidden;
   padding-left: 20px;
 }
+.surname_form {
+  width: 600px;
+  height: 50px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 352px;
+  left: 420px;
+  border: 1px solid rgba(210,210,210,1);
+  overflow: hidden;
+  padding-left: 20px;
+}
 .name_surname {
   width: 102px;
   color: rgba(166,166,166,1);
@@ -67,7 +79,7 @@ body {
   background: rgba(245,245,245,1);
   opacity: 1;
   position: absolute;
-  top: 352px;
+  top: 422px;
   left: 420px;
   border: 1px solid rgba(210,210,210,1);
   overflow: hidden;
@@ -91,7 +103,7 @@ body {
   background: rgba(245,245,245,1);
   opacity: 1;
   position: absolute;
-  top: 422px;
+  top: 492px;
   left: 421px;
   border: 1px solid rgba(210,210,210,1);
   overflow: hidden;
@@ -115,7 +127,7 @@ body {
   background: rgba(0,0,0,1);
   opacity: 1;
   position: absolute;
-  top: 522px;
+  top: 582px;
   left: 420px;
   border: none; /* Убираем границу */
   color:#E69E49; /* Цвет текста */
