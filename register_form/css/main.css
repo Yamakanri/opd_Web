@@ -32,7 +32,7 @@ body {
   top: 179px;
   left: 587px;
   font-family: TT Interfaces;
-  font-weight: Regular;
+  font-weight: normal; /* был Regular */
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -68,7 +68,7 @@ body {
   top: 296px;
   left: 470px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -92,7 +92,7 @@ body {
   top: 366px;
   left: 470px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -116,7 +116,7 @@ body {
   top: 436px;
   left: 471px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -132,7 +132,7 @@ body {
   border: none; /* Убираем границу */
   color:#E69E49; /* Цвет текста */
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   cursor: pointer;
 
@@ -144,7 +144,7 @@ body {
   top: 536px;
   left: 652px;
   font-family: TT Interfaces;
-  font-weight: Medium;
+  font-weight: normal;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -166,7 +166,7 @@ body {
   top: 27px;
   left: 1343px;
   font-family: TT Interfaces;
-  font-weight: Regular;
+  font-weight: normal; /* был Regular */
   font-size: 14px;
   opacity: 1;
   text-align: left;
